@@ -3,11 +3,11 @@ body {
     margin: 0;
     padding: 0;
     /* font-family: 'Cairo'; */
-    justify-content: center;
+    /* justify-content: center;
     align-items: center;
-    font-family: "Righteous", cursive;
-    min-height: 100vh;
-    background: rgb(255, 255, 255);
+    font-family: "Righteous", cursive; */
+    /* min-height: 100vh; */
+   
   }
   .g-button-nav{
       padding: 25px;
@@ -53,16 +53,11 @@ body {
     }
    
     .bg-img {
-      /* The image used */
-      /* background-image: url("ecommerce1.webp"); */
-      background-color: rgba(18, 141, 241, 0.705);
-      min-height: 650px;
-      /* Center and scale the image nicely */
-      background-position: center;
-      background-repeat: no-repeat;
+    
+    
+      
       background-size: cover;
-      /* Needed to position the navbar */
-      position: relative;
+     
     }
     
          .box select {
@@ -115,6 +110,15 @@ body {
             width:100px; 
                   height:50px;
           }
+          .part-image{
+            display: none;
+          }
+          .part-p{
+            font-size: 70%;
+          }
+          .content2{
+           height: 250px;
+          }
          
         }
         .selection h3{
@@ -161,6 +165,9 @@ body {
       background-color:rgba(3, 12, 141, 0.781);
       margin: 0 auto;
   
+    }
+    #neonShadow:hover{
+      background-color: #0b08c8;
     }
     .btn-2{
 
@@ -273,9 +280,7 @@ body {
               }
             }
             
-            header,
-            main,
-            footer {
+           #main{
               max-width: 960px;
               margin: 0 auto;
             }
@@ -372,3 +377,75 @@ body {
             
               text-align: center;
             }
+            .selection{
+              color: aliceblue;
+              text-align: right;
+              margin-top: 50px;
+            display: grid;
+            grid-template-rows: 35% 55% ;  
+            
+            }
+            .selection h3{
+               font-size: 25px; 
+            }
+            .part-text{
+              
+              font-size: 20px;
+              line-height: 24px;
+              color: #656565;
+              margin-bottom: 0px;
+              max-width: 570px;
+              margin: auto;
+            
+            }
+            .btnbtn{
+            
+              background-color: #0237c9;
+              color: rgb(255, 255, 255);
+              border: none;
+              border-radius: 3px;
+              height: 36px;
+              width: 300px;
+            
+            }
+            .content2{
+              background-color: rgba(232, 236, 243, 0.521);
+              box-shadow: 0 19px 38px rgba(83, 196, 248, 0.3), 0 15px 12px rgba(0,0,0,0.22);
+            }
+            footer{
+
+              background-color:rgb(0, 0, 0);
+              color: rgb(219, 218, 218);
+              display: flex;
+              justify-content: space-around;
+              min-height: 15rem;
+              
+            }
+            .textcontent{
+  
+              display: grid;
+              text-align: right;
+             
+             }#texticon{
+              text-align: center;
+            }
+            li{
+
+              list-style-type:none;
+              text-decoration:underline;
+            
+            }
+            
+            a{
+            
+               color: rgb(189, 193, 196);
+              /* text-decoration: underline overline; */
+              text-decoration:none;
+            
+            }
+            #h4text{
+              text-align: center;
+            }
+            .icone{
+              width: 30px;
+           }
